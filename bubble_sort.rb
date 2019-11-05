@@ -9,7 +9,7 @@ def bubble_sort(array)
    end
    iterations += 1
  end
- puts array.reject { |c| c.to_s.empty? }
+ array.reject { |c| c.to_s.empty? }
 end
  
 bubble_sort([4,3,78,2,0,2,1,2,45,1,3,4])
